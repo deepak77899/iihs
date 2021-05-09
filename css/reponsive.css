@@ -1,0 +1,135 @@
+@media screen and (max-width: 720px) {
+  .super-wrapper {
+    height: auto;
+  }
+  .nav-tabs {
+    display: none;
+  }
+  .hamburger-menu {
+    visibility: visible;
+  }
+  .social-icans {
+    display: none;
+  }
+  #superbackground {
+    display: none;
+  }
+  .principle-message {
+    display: block;
+  }
+  .principle-message img {
+    width: 45%;
+    margin: 20px 0 0 26%;
+  }
+  .principle-message-content {
+    width: 100%;
+  }
+  .principle-message-content h4 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .principle-message-content p {
+    padding: 25px;
+  }
+  .cards {
+    margin-top: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    margin-bottom: 15px;
+  }
+  .events-wrapper {
+    height: auto;
+  }
+  .events-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .event-card {
+    width: 80%;
+    margin-bottom: 15px;
+  }
+  .news-wrapper {
+    height: auto;
+  }
+  .news-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .delete {
+    display: none;
+  }
+  .news-content-left,
+  .news-content-right {
+    width: 80%;
+  }
+  .news-content-left img {
+    width: 100%;
+  }
+  .news-content-left h4 {
+    width: 100%;
+    margin: 20px 0 0 0;
+  }
+  .news-content-right h4,
+  .news-link {
+    width: 100%;
+    margin: 0 0 30px 23px;
+  }
+  /* .news-link {
+    margin-left: 20px;
+  } */
+  .desk-wrapper {
+    height: auto;
+  }
+  .flex-foritem {
+    flex-direction: column;
+    /* align-items: center; */
+  }
+  .carousel-item-in:nth-child(odd),
+  .carousel-item-in:nth-child(even) {
+    width: 100%;
+    justify-content: center;
+  }
+  .carousel-neo img {
+    margin: auto;
+    position: relative;
+    top: -70px;
+    border-radius: 50%;
+  }
+  .carousel-neo {
+    width: 80%;
+    display: block;
+    height: 300px;
+  }
+  .neo-content {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+    transform: translatey(-75px);
+  }
+  .desk-icon {
+    margin-left: 30%;
+  }
+  .carousel-control-prev-icon {
+    position: relative;
+    left: -10%;
+  }
+  .carousel-control-next-icon {
+    position: relative;
+    right: -10%;
+  }
+
+  .footer {
+    height: 750px;
+    background-image: none;
+  }
+  .footer .main {
+    flex-direction: column;
+  }
+  .main1,
+  .main2,
+  .main3 {
+    width: 100%;
+  }
+}
