@@ -43,7 +43,7 @@ i:hover {
 #logo span,
 .home-contentpage h1::first-letter,
 a:hover {
-  color: #14bdee;
+  color: var(--blue);
 }
 .social-icans {
   display: flex;
@@ -56,6 +56,7 @@ a:hover {
   top: 25%;
   font-size: 25px;
 }
+/* .social-icans i:nth-child(odd) { */
 .social-icans i:nth-child(odd) {
   color: #14bdee;
 }
@@ -130,6 +131,7 @@ a:hover {
   align-items: flex-end;
 }
 .menu-for-mobile ul li a:hover {
+  /* color: #14bdee; */
   color: #14bdee;
 }
 .home-contentpage {
@@ -411,6 +413,7 @@ a:hover {
   font-size: 22px;
   font-weight: 500;
 }
+/* .iihs-footer p::first-letter { */
 .iihs-footer p::first-letter {
   color: #14bdee;
   font-size: 25px;
@@ -438,6 +441,7 @@ a:hover {
   color: white;
   font-weight: bold;
 }
+/* .main h4::first-letter { */
 .main h4::first-letter {
   color: #14bdee;
 }
@@ -445,6 +449,7 @@ a:hover {
   background: transparent;
   border: none;
   color: white;
+  /* border-bottom: 1px solid #14bdee; */
   border-bottom: 1px solid #14bdee;
   width: 155px;
   padding-top: 15%;
@@ -455,6 +460,7 @@ a:hover {
 }
 .c4 #submit {
   width: 130px;
+  /* background-color: #14bdee; */
   background-color: #14bdee;
   border: none;
   transform: translate(-25px, -2px);
